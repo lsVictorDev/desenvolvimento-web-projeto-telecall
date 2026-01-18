@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/CSS/registro.css">
+    <script src="/JS/main.js"></script>
+    <title>Registro | Telecall</title>
+</head>
+
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form method="post">
+                    <div class="logo">
+                        <img src="/imagens/logo.png" alt="">
+                        <h2>|</h2>
+                        <h2>Login</h2>
+                    </div>
+                    <div class="inputbox">
+                        <input id="nome" type="text" minlength="15" maxlength="60" name="nome" required>
+                        <label for="nome">Nome Completo</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="senha" type="password" maxlength="8" name="senha" required>
+                        <label for="senha">Senha</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="confirmaSenha" type="password" maxlength="8" name="confirmsenha" required>
+                        <label for="confirmaSenha">Confirmar senha</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="login" type="text" maxlength="6" name="nome" required>
+                        <label for="login">Usúario</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="email" type="email" name="email" required>
+                        <label for="email">E-Mail</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <label for="dataNascimento"></label>
+                        <p id="line">Informa sua data de nascimento</p>
+                        <input id="dataNascimento" type="date" name="data" required>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="nomeMaterno" type="text" name="cpf" maxlength="11" required>
+                        <label for="nomeMaterno">Nome Materno</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="cpf" type="number" name="cpf" maxlength="11" required>
+                        <label for="cpf">CPF</label>
+                    </div>
+
+                    <p for="genero">Selecione seu gênero:</p>
+
+                    <select id="sexo" name="genero">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+
+                    <div class="inputbox">
+                        <input id="endereco" type="text" name="telefone" required>
+                        <label for="endereco">Endereço</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="telefoneCelular" type="number" name="telefone" required>
+                        <label for="telefoneCelular">Telefone celular</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <input id="telefoneFixo" type="number" name="telefonefixo" required>
+                        <label for="telefoneFixo">Telefone fixo</label>
+                    </div>
+
+                    <button onclick="window.location.href='index.html'">Registrar-se</button>
+
+                    <div class="register">
+                        <p>Você já tem uma conta?<a href="/HTML/index.html">Logar</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="/JS/main.js"></script>
+</body>
+
+</html>
