@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/pt1-html-css/CSS/style.css">
+   <title>Registro | Telecall</title>
+</head>
+
+<body>
+   <section class="area-login">
+      <div class="login">
+         <div>
+            <img src="/pt1-html-css/imagens/logo.png">
+         </div>
+         <form method="post">
+            <input type="text" minlength="15" maxlength="60" name="nome" placeholder="Nome do usuario" autofocus>
+            <div class="quebra">
+               <span class="esquerda">
+                  <input type="password" maxlength="8" name="senha" placeholder="Crie uma Senha de 8 digitos" autofocus>
+               </span>
+               <input type="password" maxlength="8" name="confirmsenha" placeholder="Confirme a senha" autofocus>
+            </div>
+            <input type="text" name="nome" placeholder="Nome Materno" autofocus>
+            <input type="email" name="email" placeholder="E-mail" autofocus>
+            <input type="text" name="cpf" placeholder="CPF xxx.xxx.xxx-xx" autofocus>
+            <p id="line">Informa sua data de nascimento</p>
+            <input type="date" name="data" autofocus>
+            <p id="line">Telefone celular</p>
+            <input class=telefone type="number" name="telefone" placeholder="(+55)xx xxxxx-xxxx" autofocus>
+            <p id="line">Telefone Fixo</p>
+            <input class=telefone type="number" name="telefonefixo" placeholder="(+55)xx xxxxx-xxxx" autofocus>
+            <span class="tytlegenero">
+               <label for="genero">Selecione seu gênero:</label>
+            </span>
+            <select id="genero" name="genero">
+               <option value="masculino">Masculino</option>
+               <option value="feminino">Feminino</option>
+               <option value="outro">Outro</option>
+            </select>
+            <input type="text" name="endereço" placeholder="Endereço completo" autofocus>
+            <div class="endereco">
+               <span class="esquerdabaixo">
+                  <input type="number" name="cep" placeholder="CEP" autofocus />
+               </span>
+               <input type="number" name="numero" placeholder="numero da residência" autofocus />
+            </div>
+            <input type="button" value="entrar">
+         </form>
+         <p>Você já tem uma conta?<a href="login.html">Logar</a></p>
+      </div>
+   </section>
+</body>
+
+</html>
